@@ -1,0 +1,14 @@
+{
+  "name": "fem-css-foundations",
+  "version": "1.0.0",
+  "description": "Frontend Masters CSS Foundations",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html speakers.html -p 3000"
+  },
+  "author": "Victor Volovik",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
