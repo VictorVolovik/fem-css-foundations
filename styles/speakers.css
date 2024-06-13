@@ -1,5 +1,9 @@
 @import "./base.css";
 
+.nav {
+  background: var(--color-text-on-primary);
+}
+
 .speakers__heading {
   font-size: 98px;
 }
@@ -22,6 +26,7 @@
   height: 310px;
   width: 310px;
   object-fit: cover;
+  border-radius: 10% 50% / 50% 10%;
 }
 
 .speaker__photo--top {

@@ -1,5 +1,9 @@
 @import "./base.css";
 
+.nav {
+  background: var(--color-primary);
+}
+
 .home__heading {
   margin: 0;
   font-size: 128px;
