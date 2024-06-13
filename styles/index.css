@@ -1,5 +1,9 @@
 @import "./base.css";
 
+.nav {
+  background: var(--color-primary);
+}
+
 .home__heading {
   margin: 0;
   font-size: 128px;
@@ -13,4 +17,36 @@
   margin-top: 100px;
   display: flex;
   gap: 25px;
+}
+
+@media screen and (max-width: 1919px) {
+  .home__heading {
+    font-size: 98px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .home__heading {
+    font-size: 64px;
+  }
+  .home__subheading {
+    font-size: 32px;
+  }
+  .home__actions {
+    margin-top: 58px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home__heading {
+    font-size: 36px;
+  }
+  .home__subheading {
+    font-size: 20px;
+  }
+  .home__actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
