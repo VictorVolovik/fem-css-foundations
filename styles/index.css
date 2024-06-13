@@ -1,7 +1,27 @@
-@import './base.css';
+@import "./base.css";
 
 body {
   color: var(--color-text-on-primary);
   background-color: var(--color-primary);
 }
 
+/* MAIN */
+
+.main {
+  padding: 0 150px 150px;
+}
+
+.main__heading {
+  margin: 70px 0 0;
+  font-size: 128px;
+}
+
+.main__subheading {
+  font-size: 40px;
+}
+
+.main__actions {
+  margin-top: 100px;
+  display: flex;
+  gap: 25px;
+}
