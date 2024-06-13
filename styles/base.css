@@ -1,6 +1,7 @@
 :root {
   --color-primary: #ff7b54;
   --color-text-on-primary: #fff;
+  --color-text-on-secondary: #0f0f0f;
 
   --color-button-border: var(--color-text-on-primary);
   --color-button-primary-bg: var(--color-text-on-primary);
@@ -25,6 +26,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
+}
+
+.body--primary {
+  color: var(--color-text-on-primary);
+  background-color: var(--color-primary);
+}
+
+.body--secondary {
+  color: var(--color-primary);
+  background-color: var(--color-text-on-primary);
+}
+
+main {
+  padding: 70px 150px 150px;
 }
 
 p,
