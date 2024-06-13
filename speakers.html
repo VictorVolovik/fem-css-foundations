@@ -5,20 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Day Speakers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/speakers.css" />
   </head>
   <body>
-    <header>
-      <a href="/">CSS Day</a>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="speakers.html">Speakers</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <img src="./icons/shopping-cart.svg" alt="Shopping cart" />
-      </div>
+    <header class="header">
+      <a class="header__logo" href="/">CSS Day</a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#">About</a></li>
+          <li class="nav__list-item"><a href="speakers.html">Speakers</a></li>
+          <li class="nav__list-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img
+        class="header__shopping-cart"
+        src="./icons/shopping-cart.svg"
+        alt="Shopping cart"
+      />
     </header>
     <main>
       <h1>Speakers.</h1>
